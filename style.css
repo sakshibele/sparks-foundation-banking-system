@@ -1,0 +1,85 @@
+.div{
+  background-image: url(bg2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 100vh;
+}
+.btn-outline-primary {
+  color: #3dccbf;
+  background-color: transparent;
+  background-image: none;
+  border-color: #3dccbf;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #3dccbf;
+  border-color: #3dccbf;
+}
+[type=button], [type=reset], [type=submit], button {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #3dccbf;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid #3dccbf;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  -webkit-appearance: button;
+}
+
+.home {
+    background-color: #191c1f;
+    height: 297px;
+  }
+  .img{
+    margin-bottom: 13px;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+  h1
+  {
+    margin-top: 15px;
+    text-align: center;
+    color: aliceblue;
+  }
+  h3{
+    margin-top: 15px;
+    text-align: center;
+    color: aliceblue;
+  }
+  .buttons{
+    text-align: center;
+    margin-top: 14px;
+    /* margin: 21px 7px; */
+  }
+  #midbutton{
+    margin: 6px 8px;
+  }
+  .btn{
+    margin: 5px;
+  }
+  .about{
+    text-align: center;
+    margin-top: 8px;
+  }
+  @media screen and (max-width:445px){
+    .about{
+        display: none;
+    }
+  }
+
+.img
+{
+  margin-left: auto;
+}

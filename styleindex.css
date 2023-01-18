@@ -1,0 +1,45 @@
+.div{
+  background-image: url(bg2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 100vh;
+}
+
+.home {
+    background-color: #191c1f;
+    height: 297px;
+  }
+  .img{
+    margin-bottom: 13px;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+  h1
+  {
+    margin-top: 15px;
+    text-align: center;
+    color: aliceblue;
+  }
+  h3{
+    margin-top: 15px;
+    text-align: center;
+    color: aliceblue;
+  }
+  .buttons{
+    text-align: center;
+    margin-top: 14px;
+  }
+  .btn{
+    margin: 5px;
+  }
+  .about{
+    text-align: center;
+    margin-top: 8px;
+  }
+  @media screen and (max-width:445px){
+    .about{
+        display: none;
+    }
+  }

@@ -1,0 +1,72 @@
+.div{
+    background-image: url(bg2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 100vh;
+  }
+  
+  .box {
+    width: 278px;
+    height: 319px;
+    /* background-color: black; */
+    position: absolute;
+    top: 26%;
+    left: 40%;
+    
+    border: solid 3px rgb(0 0 0 / 67%);
+
+    border-radius: 2px;
+    padding-left: 29px;
+    background-color: rgba(255,255,255,0.2);
+}
+.box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: black;
+    margin-bottom: 23px;
+    font-size: 16px;
+    
+}
+.box h2{
+    margin-left: -2vh;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-bottom: 9px;
+    margin-top: 10px;
+}
+.box input[type="submit"] {
+    height: 35px;
+    /* background-color: #4a6795; */
+    border: solid 3px rgb(0 0 0 / 56%);
+    background: #212529;
+    border: none;
+    color: #9b9d97;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 90%;
+}
+.box input[type="submit"]:hover{
+    background-color: #4a6795;
+    color: black;
+    cursor: pointer;
+}
+.form{
+    margin-top: 38px;
+}
+
+@media screen and (max-width: 800px){
+.box{
+    left: 28%;
+}
+}
+@media screen and (max-width: 550px){
+    .box{
+        left: 20%;
+    }
+    }
